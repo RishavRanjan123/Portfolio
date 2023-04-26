@@ -1,0 +1,352 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 16px 30px;
+    margin-right: 560px;
+}
+
+#logo img {
+    margin: -6px 23px;
+    height: 60px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(253, 102, 102);
+    text-decoration: underline;
+}
+
+/* Home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 658px;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+#nameall .red {
+    color: red;
+}
+
+#nameall .one {
+    margin-right: 40px;
+    margin-left: 12px;
+}
+
+#nameall h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8rem;
+}
+
+#nameall {
+    display: flex;
+}
+
+#nameall #name1,
+#nameall #name2 {
+    display: flex;
+}
+
+#home::before {
+    content: "";
+    background: url(../img/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+#home p {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+/* .services-container{
+    padding: 123px;
+} */
+#skills{
+    margin: 34px;
+    display: flex;
+}
+
+#skills .box {
+    border: 2px solid red;
+    padding: 34px;
+    margin: 25px 15px;
+    border-radius: 28px;
+    background-color: rgb(255 246 246);
+}
+
+#skills .box img {
+    display: block;
+    margin: auto;
+    height: 170px;
+}
+
+#skills .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+/* Projects Section */
+#project-section {
+    position: relative;
+}
+
+#project-section::before {
+    content: "";
+    position: absolute;
+    background: url(../img/bg2.png) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#project-section h1{
+    margin: 13px;
+    color: white;
+
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bh{
+    color: white;
+}
+
+.project-item {
+
+    padding: 200px;
+}
+
+#projects img {
+    height: 200px;
+}
+
+/* Abouts-Section */
+#myimg img{
+    height: 630px;
+}
+#abouts{
+    display: flex;
+}
+#ah p{
+    color: black;
+    display: block;
+    width: 36%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#ah h1{
+    display: block;
+    width: 16%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+/* #abouts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+/* Contact-Section */
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(../img/contact.jpg) no-repeat center center/cover;
+}
+
+#contacts{
+    margin: 34px;
+    display: flex;
+}
+
+#contacts .box2 {
+    border: 2px solid red;
+    width: 420px ;
+    padding: 34px;
+    margin: 25px 15px;
+    border-radius: 28px;
+    background-color: rgb(255 246 246);
+}
+
+#contacts .box2 img {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+#contacts .box2 p {
+    font-family: 'Bree Serif', serif;
+}
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+.h-primary {
+    font-size: 1.8rem;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 30px;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 20px;
+    margin: 17px;
+    color: white;
+    background-color: brown;
+    border: 2px solid white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet');
+
+.wrapper {
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 193px;
+}
+
+.wrapper .static-txt {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #ff3737;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}

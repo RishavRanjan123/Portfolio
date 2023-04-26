@@ -1,0 +1,79 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home Section */
+#home{
+    height: 377px;
+    padding: 3px 82px;
+}
+#home::before{
+    height: 530px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+/* Services Section */
+#skills{
+    flex-direction: column;
+}
+/* Clients Section */
+#projects{
+    flex-wrap: wrap;
+}
+#projects img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+#abouts{
+    flex-direction: column;
+}
+/* Contact Us Secrion */
+#contacts{
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+/* Utility Classes */
+.h-primary{
+    font-size: 26px;
+}
+#logo{
+    margin-right: 0px;
+}
+#nameall h1 {
+    font-size: 3rem;
+}
+.wrapper {
+    margin-bottom: 130px;
+}
+#myimg img{
+    width: 100%;
+}
+
+.wrapper .static-txt,
+.dynamic-txts li{
+    font-size: 20px;
+}
+
+#nameall .one {
+    margin-right: 0px;
+}
+
+* {
+    margin-right: 0;
+    padding: 0;
+}
+
+.project-item {
+    padding: 98px;
+}
